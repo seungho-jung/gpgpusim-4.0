@@ -1,0 +1,11 @@
+./install_gpgpusim.sh를 실행하여 gpgpu-sim에 대한 기본 세팅을 완료한다.
+->GPGPU-Sim dependencies, cuda 10.1, 그 외의 dependency 설정이 완료된다.
+
+source setup_gpgpusim을 하여 bash 설정을 바꾸어준다
+source setup_environment를 통하여 bash 설정을 바꾸어준다.
+
+ cuda-install-samples-10.1.sh <dir>을 통하여 cuda sample을 꺼내준다.
+ 
+ sample 내의 Makefile의 nvcc란에 --cudart shared를 추가해준 뒤 make 해준다.
+ 
+ config와 함께 동작시켜본다.
